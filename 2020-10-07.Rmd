@@ -1,0 +1,98 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "???o?Z"
+date: "2020-10-07"
+output: output_format
+params:
+  id: "410683040"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+a <- 15
+B <- a
+y <- 22
+c <- y
+ 
+```
+
+```{r}
+num1 <- 5
+vNum2 <- c(2,5)
+vNum2 <- c(2,num1)
+vNum1 <- vNum2
+vNum2 <- c(2,vNum1)
+```
+```{r}
+heightOftheEntireClassroom <- c()
+heightsOftheEntireClassroom2 <- c()
+```
+
+```{r}
+heightOfAStudentComingInsideTheClassroom <- Sample(165,200,1)
+```
+
+```{r}
+# method 1:concatenate
+heightOfAStudentComingInsideTheClassroom <-
+  c(
+    heightsOftheEntireClassroom,
+heightOfAStudentComingInsideTheClassroom
+  )
+```
+```{r}
+# method 2: 
+heightsOftheEntireClassroom2 <-
+  heightOfAStudentComingInsideTheClassroom
+```
+
+
+```{r}
+c(5,7)
+c("Gary","Celine")
+c(T,TRUE,F,FALSE)
+c(T,T,F,F)
+```
+```{r}
+num1<-5
+num2<-5L
+num1Vector<-c(5,6,7)
+num2Vector<-c(5L,6L,7L)
+```
+
+
+```{r}
+typeof(num1)
+typeof(num2)
+```
+
+
+```{r}
+dialogue <- c('小明說："明天不用上課。"',
+               '小花說："真的嗎？"')
+
+cat(dialogue, sep="\n")
+writeLines(dialogue, "conversation.txt")
+```
+
+
+```{r}
+d1 <- "小明說:明天不用上課"
+d2 <- "小明說:\"明天不用上課"/"
+```
+```{r}
+cat("老師說換行要寫\\n")
+```
+
+
+```{r}
+cat("老師說換行要寫\'\\n\', \"\\\"是escape的意思")
+```
+
+
+```{r}
